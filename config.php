@@ -1,5 +1,5 @@
 <?php
-	$base_url = '/Tutorial/PHP/week1/php-base';
+	$base_url = str_replace('/index.php', '', $_SERVER['PHP_SELF']);
 
 	$db_name = 'ecommerce';
 	$db_user = 'root';
